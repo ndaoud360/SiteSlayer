@@ -11,16 +11,12 @@
 <body>
     <div>
         <script type="text/javascript">
-            atOptions = {
-                'key' : '7f6e6a1763511e38848c4780c5329668',
-                'format' : 'iframe',
-                'height' : 50,
-                'width' : 320,
-                'params' : {}
-            };
-        </script>
-        <script type="text/javascript" src="//www.highperformanceformat.com/7f6e6a1763511e38848c4780c5329668/invoke.js"></script>
-        
-        </div>
-</body>
-</html>
+	atOptions = {
+		'key' : '7f6e6a1763511e38848c4780c5329668',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/7f6e6a1763511e38848c4780c5329668/invoke.js"></script>
