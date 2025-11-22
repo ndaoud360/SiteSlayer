@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ad Container</title>
+    <style>
+        body { margin: 0; padding: 0; overflow: hidden; background: transparent; }
+        div { display: flex; justify-content: center; align-items: center; height: 100vh; }
+    </style>
+</head>
+<body>
+    <div>
+        <script type="text/javascript">
+            atOptions = {
+                'key' : 'e9b06a667c60704c95f3b5f5463fbb9d',
+                'format' : 'iframe',
+                'height' : 50,
+                'width' : 320,
+                'params' : {}
+            };
+        </script>
+        <script type='text/javascript' src='//pl28108243.effectivegatecpm.com/e9/b0/6a/e9b06a667c60704c95f3b5f5463fbb9d.js'></script>
+    </div>
+</body>
+</html>
