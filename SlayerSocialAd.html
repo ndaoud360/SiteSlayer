@@ -4,22 +4,37 @@
     <meta charset="utf-8">
     <title>Ad Container</title>
     <style>
-        body { margin: 0; padding: 0; overflow: hidden; background: transparent; }
-        div { display: flex; justify-content: center; align-items: center; height: 100vh; }
+        /* Reset margins to prevent scrollbars */
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            width: 100%; 
+            height: 100%; 
+            overflow: hidden; 
+            background: transparent; 
+        }
+        /* Center the ad perfectly */
+        #ad-wrapper { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            width: 100%; 
+            height: 100%; 
+        }
     </style>
 </head>
 <body>
-    <div>
+    <div id="ad-wrapper">
         <script type="text/javascript">
-	atOptions = {
-		'key' : '22cfa4c3c12667d6edaaa2d19ff192c6',
-		'format' : 'iframe',
-		'height' : 600,
-		'width' : 160,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/22cfa4c3c12667d6edaaa2d19ff192c6/invoke.js"></script>
+            atOptions = {
+                'key' : 'YOUR_NEW_160x600_KEY_HERE', 
+                'format' : 'iframe',
+                'height' : 600, 
+                'width' : 160,
+                'params' : {}
+            };
+        </script>
+        <script async="async" data-cfasync="false" src="//pl28108278.effectivegatecpm.com/YOUR_NEW_160x600_KEY_HERE/invoke.js"></script>
     </div>
 </body>
 </html>
